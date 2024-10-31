@@ -1,3 +1,70 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+body {
+    background-color: ivory;
+}
+
+h2 {
+    background-color: green;
+    padding: 5px;
+}
+
+.admin {
+    background-color: red;
+    padding: 5px;
+    text-align: center;
+}
+
+input {
+    width: min-content;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logout {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgb(50, 214, 236);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.admin-buttons {
+    border: 3px solid red;
+}
+
+.main {
+    background-color: aquamarine;
+}
+
+form.logout {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+form.logout button {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgb(255, 125, 105);
+}
